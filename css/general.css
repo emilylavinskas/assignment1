@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+.masthead {
+    height: 4rem;
+}
+.billboard {
+    overflow:hidden;
+    background-size: 25rem;
+    background-color: black;
+    background-image: url(../images/ballet15.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 10rem;
+    width: auto;
+}
+
+.pointe {
+    height: 4rem;
+    margin: -1rem 0 0 0;
+    width: auto;
+    opacity: 1;
+}
+
+article {
+    font-family: helvetica, arial, sans-serif;
+    font-size: .8rem;
+}
+
+footer {
+    font-family: helvetica, arial, sans-serif;
+    font-size: .7rem;
+    text-align: center;
+}
+
+footer span {
+    font-weight: bold;
+    color: #fe87a3;
+}
+
+h1 {
+    font-family: rockwell, times, serif;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 3.5rem;
+    margin: 3rem 0;
+}
+
+h1 span {
+    font-size: 2rem;
+    color: #fe87a3;
+    text-shadow: #fff 1.9px 1.9px;
+}
+    
+h2 {
+    font-family: rockwell, times, serif;
+    font-weight: normal;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fe87a3;
+    margin: .5rem;
+}
+
+h2 span {
+    font-size: 1.6rem;
+}
+
+p {
+    line-height: 1.1rem;
+    margin: 0 0 1.5rem;
+}
+
+.ballerina {
+    border-radius: 45rem;
+}
+
+figcaption {
+    text-align: center;
+    margin: 1rem 0%;
+    font-family: rockwell, times, serif;
+    color: #fe87a3;
+}
+
+figcaption span {
+    color: black;
+}
+
+summary {
+    text-align: center;
+    font-weight: bold;
+}   
+
+blockquote {
+    font-family: rockwell, times, serif;
+    font-size: 1rem;
+}
+
+blockquote span {
+    font-family: rockwell, times, serif;
+    color: #fe87a3;
+    font-weight: bold;
+}
