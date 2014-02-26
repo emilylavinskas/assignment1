@@ -82,14 +82,14 @@ h1 span {
 h2 {
     font-family: rockwell, times, serif;
     font-weight: normal;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
     color: #fe87a3;
     margin: .5rem;
 }
 
 h2 span {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 p {
